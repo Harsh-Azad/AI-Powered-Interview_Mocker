@@ -64,7 +64,7 @@ export default function Home() {
 </section>
 <section className=" bg-white z-50 px-4 mx-auto max-w-screen-xl text-center  lg:px-12">
 <h2 className="font-bold text-3xl">How it Works?</h2>
-<h2 className="text-md text-gray-500">Give mock interview in just 3 simplar easy step</h2>
+<h2 className="text-md text-gray-500">Give mock interview in just 3 simple-easy steps</h2>
 
 <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <a
@@ -75,7 +75,7 @@ export default function Home() {
       >
        <AtomIcon className='h-8 w-8'/>
 
-        <h2 className="mt-4 text-xl font-bold text-black">Write promot for your form</h2>
+        <h2 className="mt-4 text-xl font-bold text-black">Write promot for Interview</h2>
 
         <p className="mt-1 text-md text-gray-600">
           Provide the Job role you want to interviewed for. It's Job description and years of exp. in the field.
