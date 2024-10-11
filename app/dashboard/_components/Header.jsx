@@ -8,9 +8,9 @@ import React, { useEffect } from 'react'
 function Header() {
 
     const path=usePathname();
-    useEffect(()=>{
-        console.log(path)
-    },[])
+    // useEffect(()=>{
+    //     console.log(path)
+    // },[])
 
   return (
     <div className='flex p-6 items-center justify-between bg-secondary shadow-md'>
@@ -19,6 +19,7 @@ function Header() {
       </Link>
         <ul className='hidden md:flex gap-12'>
           <Link href={"/dashboard"}>
+          {/* //$ path is a variable that holds the current path of the page */}
             <li className={`hover:text-primary hover:font-bold text-2xl transition-all
             cursor-pointer
             ${path=='/dashboard'&&'text-primary font-bold'}

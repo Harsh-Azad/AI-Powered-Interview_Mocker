@@ -68,8 +68,8 @@ function AddNewInterview() {
     }
   return (
     <div>
-        <div className='p-10 border rounded-lg bg-secondary
-        hover:scale-105 hover:shadow-md cursor-pointer
+        <div className='p-10 border rounded-lg bg-secondary shadow-md
+        hover:scale-105 hover:shadow-lg cursor-pointer
          transition-all border-dashed'
          onClick={()=>setOpenDailog(true)}
          >
